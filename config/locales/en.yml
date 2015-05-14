@@ -1,5 +1,6 @@
 en:
-  sample: :another # we expect the value of 'sample' is same as that of 'another'.
-  another:
-    run:
-      success: Success!
+  sample: :foo.bar # we expect the value of 'sample' is same as that of 'foo.bar'.
+  foo:
+    bar:
+      run:
+        success: Success!
