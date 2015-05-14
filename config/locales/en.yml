@@ -1,0 +1,5 @@
+en:
+  sample: :another # we expect the value of 'sample' is same as that of 'another'.
+  another:
+    run:
+      success: Success!
